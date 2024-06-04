@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/controle-de-temperatura.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>CONVERSOR DE TEMPERATURA</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h1>CONVERSOR DE TEMPERATURA</h1>
+        <p>Digite a temperatura atual</p>
+      
+        <div class="temperatura">
+          <input type="number" id="temperature" placeholder="Enter temperature">
+          <select id="opcoes">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+          </select>
+        </div>
+      
+        <button id="converter" onclick="converter()">Converter</button>
+        <button id="zerar" onclick="apagar()">Zerar Temperatura</button>
+      
+        <p id="resultado"></p>
+      </div>
+
+    </div>
+
+    <footer>
+        <a href="https://www.linkedin.com/in/gustavo-santos-1701jr/"><img src="assets/img/linkedin.png"
+                alt="">Linkedin</a>
+        <a href="https://github.com/Gustavo1701"><img src="assets/img/github.png" alt="">GitHub</a>
+        <a href=""><img src="assets/img/whatsapp.png" alt="">(88) 998044971</a>
+    </footer>
+
+
+    <script src="assets/js/conversor.js"></script>
+</body>
+
+</html>
